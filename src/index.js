@@ -8,3 +8,5 @@ app.get("/", (request, response) => {
 
 //para o express funcionar precisamos definir uma porta onde a nosssa aplicação vai estar rodando
 app.listen(3333) //startando a nossa aplicação
+
+//na maioria das vezes vamos usar a função de json em vez de send()
